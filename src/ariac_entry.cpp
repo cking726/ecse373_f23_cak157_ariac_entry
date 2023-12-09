@@ -5,7 +5,6 @@
 #include "std_srvs/Trigger.h"
 #include "std_srvs/SetBool.h"
 
-
 std_srvs::Trigger begin_comp;
 std_srvs::SetBool my_bool_var;
 my_bool_var.request.data = true;
